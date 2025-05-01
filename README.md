@@ -1,0 +1,1 @@
+# Parallel-Collatz-Conjecture-Based-Cryptographic-Hashing
