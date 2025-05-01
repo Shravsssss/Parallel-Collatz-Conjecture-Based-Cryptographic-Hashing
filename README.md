@@ -42,18 +42,14 @@ For optimal performance:
 ```text
 .
 ├── README.md
-├── LICENSE
 ├── Makefile
 ├── bin/                      # Compiled binaries
 ├── src/
-│   ├── two_stage_sha256_sequential.c
+│   ├── sequential.c
 │   ├── omp1.c
 │   ├── mpi.c
 │   └── hybrid.c
 ├── results/                  # Raw log files and CSVs
-├── scripts/
-│   ├── benchmark.sh          # Automates runs & collects timings
-│   └── plot_results.py       # Generates plots (requires matplotlib)
 └── docs/
     ├── parallel-crypto-hash.tex
     └── figures/              # PDF/PNG for paper inclusion
@@ -126,44 +122,6 @@ Each run prints:
 
 ---
 
-## Testing & Benchmarking
-
-We provide a `scripts/benchmark.sh` to automate strong and weak scaling studies:
-
-```bash
-# Make sure executables are up to date
-make all
-
-# Run strong scaling: fixed total inputs (10 million), vary resources
-bash scripts/benchmark.sh --mode strong \
-    --seq ./bin/sequential \
-    --omp ./bin/openmp \
-    --mpi ./bin/mpi \
-    --hybrid ./bin/hybrid \
-    --start 1000000 --end 11000000 \
-    --threads 4 16 64 \
-    --ranks 4 16 64 \
-    --repeats 5
-```
-
-This script will:
-
-1. Execute each configuration 5 times.  
-2. Discard any trial >1 σ from the mean.  
-3. Save cleaned results in `results/` as CSV.  
-
-To generate plots:
-
-```bash
-python3 scripts/plot_results.py \
-    --input results/strong_scaling.csv \
-    --output docs/figures/strong_scaling.png
-```
-
-Repeat for weak scaling by passing `--mode weak` (scales inputs as 1 million × resources).
-
----
-
 ## Performance Snapshot
 
 | Variant          | Resources       | Time (s) | Speedup  | Efficiency |
@@ -174,18 +132,6 @@ Repeat for weak scaling by passing `--mode weak` (scales inputs as 1 million × 
 | Hybrid           | 4 ranks × 4 thr | 0.364    | 2.97×    | 19 %       |
 
 Refer to the `docs/parallel-crypto-hash.tex` for full tables and graphs.
-
----
-
-## Amdahl’s Law
-
-With ~95 % parallel work, Amdahl’s Law predicts:
-
-\[
-S(P) \;=\; \frac{1}{(1-0.95)+0.95/P},
-\]
-
-yielding an ideal 12.3× speedup on 16 cores.  The 6× observed speedup reflects real‐world overheads (memory, scheduling, etc.).
 
 ---
 
@@ -200,10 +146,4 @@ yielding an ideal 12.3× speedup on 16 cores.  The 6× observed speedup reflects
    ```
 3. **Implement** your changes, run tests/benchmarks.  
 4. **Push** and open a **Pull Request** with a clear description and performance impact.  
-
----
-
-## License
-
-This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for details.
 ```
