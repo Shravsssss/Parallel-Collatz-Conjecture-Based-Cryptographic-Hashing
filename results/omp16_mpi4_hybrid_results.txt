@@ -1,0 +1,84 @@
+==== Range: 1000000 to 2000000 ====
+Stage 1 (Collatz) total time : 0.125627 s
+Stage 2 (SHA-256) total time : 0.126521 s
+Combined compute time        : 0.252148 s
+Final digest: c964998e3e8257d26ab1a4613b5ec9f775d5b718be34b759fcf27942af20bf47
+
+==== Range: 1000000 to 3000000 ====
+Stage 1 (Collatz) total time : 0.161894 s
+Stage 2 (SHA-256) total time : 0.230985 s
+Combined compute time        : 0.392879 s
+Final digest: 5d9fb04e828dcb4d84dfb86e26c743ac60a0906901c13f3229062224d2ba0863
+
+==== Range: 1000000 to 4000000 ====
+Stage 1 (Collatz) total time : 0.233631 s
+Stage 2 (SHA-256) total time : 0.335930 s
+Combined compute time        : 0.569561 s
+Final digest: cdf553442307052716e31913f641df8c95303bfcd78efa6422fa9ad3490baaa6
+
+==== Range: 1000000 to 5000000 ====
+Stage 1 (Collatz) total time : 0.337557 s
+Stage 2 (SHA-256) total time : 0.456531 s
+Combined compute time        : 0.794088 s
+Final digest: a664ab98729c409cf7f051dc93c03c5e505262fbdd4ce9e1b7c8acdd92c303dd
+
+==== Range: 1000000 to 6000000 ====
+Stage 1 (Collatz) total time : 0.408773 s
+Stage 2 (SHA-256) total time : 0.526071 s
+Combined compute time        : 0.934845 s
+Final digest: bd3deacc296050108aa6c0ec9592eae401a40e4a8d8fafca9faf85812f8ef926
+
+==== Range: 1000000 to 7000000 ====
+Stage 1 (Collatz) total time : 0.482765 s
+Stage 2 (SHA-256) total time : 0.677460 s
+Combined compute time        : 1.160225 s
+Final digest: fb2c945929aed68b1517a7d90d03785c5030b809f39b20564c4a1bfa5bd4c898
+
+==== Range: 1000000 to 8000000 ====
+Stage 1 (Collatz) total time : 0.572560 s
+Stage 2 (SHA-256) total time : 0.757632 s
+Combined compute time        : 1.330192 s
+Final digest: 931408e75e8713a1f3bd1672d423927661ecd2f4d014567a67859d6cd6609306
+
+==== Range: 1000000 to 9000000 ====
+Stage 1 (Collatz) total time : 0.634552 s
+Stage 2 (SHA-256) total time : 0.903970 s
+Combined compute time        : 1.538522 s
+Final digest: 03d540162d96198189f38b546b8edb13c8f52b51ee0f0924302182baf64c4f0f
+
+==== Range: 1000000 to 10000000 ====
+Stage 1 (Collatz) total time : 0.717270 s
+Stage 2 (SHA-256) total time : 0.931395 s
+Combined compute time        : 1.648665 s
+Final digest: 64d66d62426e3235cae1ecaf19d5d941fb63f711f3de4ee7963d345caaa74c89
+
+==== Range: 1000000 to 11000000 ====
+Stage 1 (Collatz) total time : 0.793240 s
+Stage 2 (SHA-256) total time : 0.993078 s
+Combined compute time        : 1.786317 s
+Final digest: 2b5d599347a81537c76ec927e0028f9bb82d9d5cbfd7c6e21d8ef22ea4a9d459
+
+==== Range: 1000000 to 12000000 ====
+Stage 1 (Collatz) total time : 0.850457 s
+Stage 2 (SHA-256) total time : 1.117438 s
+Combined compute time        : 1.967895 s
+Final digest: 4e439b8f39acdbcf0f6d149f0ad2349a5f9d227199cb75c7c7bdd2ef2d703046
+
+==== Range: 1000000 to 13000000 ====
+Stage 1 (Collatz) total time : 0.967584 s
+Stage 2 (SHA-256) total time : 1.206379 s
+Combined compute time        : 2.173963 s
+Final digest: 571478bd9cf90a184af9dc9cfa5b86435b8dc14a2b07ee765be0bbc2a1ff2dd7
+
+==== Range: 1000000 to 14000000 ====
+Stage 1 (Collatz) total time : 1.004674 s
+Stage 2 (SHA-256) total time : 1.331351 s
+Combined compute time        : 2.336025 s
+Final digest: c5cbc34c0d1f593599318a2436c12215ae56d2a614ac0d5331713a068c50f155
+
+==== Range: 1000000 to 15000000 ====
+Stage 1 (Collatz) total time : 1.115515 s
+Stage 2 (SHA-256) total time : 1.325071 s
+Combined compute time        : 2.440586 s
+Final digest: 2d8aa79db0e5eacd01c53e70b8cafdaf8f1171ca2b19f1ef215a96765f504435
+

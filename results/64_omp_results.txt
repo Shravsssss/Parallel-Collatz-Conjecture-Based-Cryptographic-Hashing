@@ -1,0 +1,126 @@
+==== Range: 1000000 to 2000000 ====
+Total numbers: 1000001
+[Stage 1] Collatz hashing time: 0.108005 s
+[Stage 2] SHA-256 mixing time: 0.088171 s
+Final Two-Stage SHA-256 Mixed Hash:
+c964998e3e8257d26ab1a4613b5ec9f775d5b718be34b759fcf27942af20bf47
+Total parallel time: 0.196176 s
+====================================
+
+==== Range: 1000000 to 3000000 ====
+Total numbers: 2000001
+[Stage 1] Collatz hashing time: 0.175424 s
+[Stage 2] SHA-256 mixing time: 0.177948 s
+Final Two-Stage SHA-256 Mixed Hash:
+5d9fb04e828dcb4d84dfb86e26c743ac60a0906901c13f3229062224d2ba0863
+Total parallel time: 0.353372 s
+====================================
+
+==== Range: 1000000 to 4000000 ====
+Total numbers: 3000001
+[Stage 1] Collatz hashing time: 0.261882 s
+[Stage 2] SHA-256 mixing time: 0.263540 s
+Final Two-Stage SHA-256 Mixed Hash:
+cdf553442307052716e31913f641df8c95303bfcd78efa6422fa9ad3490baaa6
+Total parallel time: 0.525421 s
+====================================
+
+==== Range: 1000000 to 5000000 ====
+Total numbers: 4000001
+[Stage 1] Collatz hashing time: 0.350033 s
+[Stage 2] SHA-256 mixing time: 0.350980 s
+Final Two-Stage SHA-256 Mixed Hash:
+a664ab98729c409cf7f051dc93c03c5e505262fbdd4ce9e1b7c8acdd92c303dd
+Total parallel time: 0.701014 s
+====================================
+
+==== Range: 1000000 to 6000000 ====
+Total numbers: 5000001
+[Stage 1] Collatz hashing time: 0.438543 s
+[Stage 2] SHA-256 mixing time: 0.439447 s
+Final Two-Stage SHA-256 Mixed Hash:
+bd3deacc296050108aa6c0ec9592eae401a40e4a8d8fafca9faf85812f8ef926
+Total parallel time: 0.877991 s
+====================================
+
+==== Range: 1000000 to 7000000 ====
+Total numbers: 6000001
+[Stage 1] Collatz hashing time: 0.522867 s
+[Stage 2] SHA-256 mixing time: 0.524824 s
+Final Two-Stage SHA-256 Mixed Hash:
+fb2c945929aed68b1517a7d90d03785c5030b809f39b20564c4a1bfa5bd4c898
+Total parallel time: 1.047691 s
+====================================
+
+==== Range: 1000000 to 8000000 ====
+Total numbers: 7000001
+[Stage 1] Collatz hashing time: 0.611412 s
+[Stage 2] SHA-256 mixing time: 0.610181 s
+Final Two-Stage SHA-256 Mixed Hash:
+931408e75e8713a1f3bd1672d423927661ecd2f4d014567a67859d6cd6609306
+Total parallel time: 1.221593 s
+====================================
+
+==== Range: 1000000 to 9000000 ====
+Total numbers: 8000001
+[Stage 1] Collatz hashing time: 0.693205 s
+[Stage 2] SHA-256 mixing time: 0.691863 s
+Final Two-Stage SHA-256 Mixed Hash:
+03d540162d96198189f38b546b8edb13c8f52b51ee0f0924302182baf64c4f0f
+Total parallel time: 1.385068 s
+====================================
+
+==== Range: 1000000 to 10000000 ====
+Total numbers: 9000001
+[Stage 1] Collatz hashing time: 0.788689 s
+[Stage 2] SHA-256 mixing time: 0.788346 s
+Final Two-Stage SHA-256 Mixed Hash:
+64d66d62426e3235cae1ecaf19d5d941fb63f711f3de4ee7963d345caaa74c89
+Total parallel time: 1.577035 s
+====================================
+
+==== Range: 1000000 to 11000000 ====
+Total numbers: 10000001
+[Stage 1] Collatz hashing time: 0.864418 s
+[Stage 2] SHA-256 mixing time: 0.863896 s
+Final Two-Stage SHA-256 Mixed Hash:
+2b5d599347a81537c76ec927e0028f9bb82d9d5cbfd7c6e21d8ef22ea4a9d459
+Total parallel time: 1.728314 s
+====================================
+
+==== Range: 1000000 to 12000000 ====
+Total numbers: 11000001
+[Stage 1] Collatz hashing time: 0.954542 s
+[Stage 2] SHA-256 mixing time: 0.954698 s
+Final Two-Stage SHA-256 Mixed Hash:
+4e439b8f39acdbcf0f6d149f0ad2349a5f9d227199cb75c7c7bdd2ef2d703046
+Total parallel time: 1.909240 s
+====================================
+
+==== Range: 1000000 to 13000000 ====
+Total numbers: 12000001
+[Stage 1] Collatz hashing time: 1.033703 s
+[Stage 2] SHA-256 mixing time: 1.033646 s
+Final Two-Stage SHA-256 Mixed Hash:
+571478bd9cf90a184af9dc9cfa5b86435b8dc14a2b07ee765be0bbc2a1ff2dd7
+Total parallel time: 2.067349 s
+====================================
+
+==== Range: 1000000 to 14000000 ====
+Total numbers: 13000001
+[Stage 1] Collatz hashing time: 1.129183 s
+[Stage 2] SHA-256 mixing time: 1.129829 s
+Final Two-Stage SHA-256 Mixed Hash:
+c5cbc34c0d1f593599318a2436c12215ae56d2a614ac0d5331713a068c50f155
+Total parallel time: 2.259012 s
+====================================
+
+==== Range: 1000000 to 15000000 ====
+Total numbers: 14000001
+[Stage 1] Collatz hashing time: 1.222960 s
+[Stage 2] SHA-256 mixing time: 1.217544 s
+Final Two-Stage SHA-256 Mixed Hash:
+2d8aa79db0e5eacd01c53e70b8cafdaf8f1171ca2b19f1ef215a96765f504435
+Total parallel time: 2.440505 s
+====================================
+
